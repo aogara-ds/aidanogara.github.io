@@ -2,31 +2,45 @@
 layout: default
 ---
 
-<section class="hero">
-  <h1>Aidan O'Gara</h1>
-  <p>Welcome to my personal website. Here you'll find information about my work, projects, and interests.</p>
-</section>
+<div class="page">
+  <section class="profile">
+    <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="Aidan O'Gara" class="headshot">
+    <div class="bio">
+      <h1>Aidan O'Gara</h1>
+      <p>I'm an AI DPhil student at Oxford University and an AI grantmaker at Longview Philanthropy.</p>
+      <p>Previously, I worked at GovAI, Center for AI Safety, and Epoch.</p>
+      <p>In another life, I dropped out of college to help found a fintech startup, running their data science team for three years before I went back to school to finish my degree.</p>
+      <p>I live in Washington DC.</p>
+    </div>
+  </section>
 
-<section class="home-content">
-  <h2>Recent Posts</h2>
-  {% if site.posts.size > 0 %}
-    <ul class="post-list">
-      {% for post in site.posts limit:3 %}
-        <li class="post-item">
-          <h3 class="post-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h3>
-          <div class="post-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-          </div>
-          <div class="post-excerpt">
-            {{ post.excerpt }}
-          </div>
-          <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-        </li>
-      {% endfor %}
+  <section class="publications">
+    <h2>Selected Publications</h2>
+    <ul class="pub-list">
+      <li class="pub-item">
+        <a href="https://arxiv.org/" target="_blank">Hoodwinked</a> - Arxiv
+      </li>
+      <li class="pub-item">
+        <a href="https://www.cell.com/patterns/home" target="_blank">AI Deception</a> - Patterns
+      </li>
+      <li class="pub-item">
+        <a href="https://arxiv.org/" target="_blank">Adversarial Robustness</a> - Arxiv
+      </li>
+      <li class="pub-item">
+        <a href="https://epochai.com" target="_blank">LLM BDTs</a> - EpochAI.com
+      </li>
     </ul>
-  {% else %}
-    <p>No posts available yet.</p>
-  {% endif %}
-</section>
+  </section>
+
+  <section class="social-links">
+    <ul>
+      <li><a href="https://scholar.google.com/" target="_blank">Scholar</a></li>
+      <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://twitter.com/" target="_blank">X</a></li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <p>Contact me: <a href="mailto:aidanogara623@gmail.com">aidanogara623@gmail.com</a></p>
+  </section>
+</div>

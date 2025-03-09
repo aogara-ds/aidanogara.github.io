@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aidan O'Gara</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap">
+  <style>
+    /* Variables */
+    :root {
+      --primary-color: #333;
+      --secondary-color: #555;
+      --background-color: #e0e0e0;
+      --border-color: #ccc;
+      --text-color: #333;
+      --link-color: #444;
+      --link-hover-color: #000;
+    }
+
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Base styles */
+    body {
+      font-family: 'Lora', 'Times New Roman', serif;
+      line-height: 1.6;
+      color: var(--text-color);
+      background-color: var(--background-color);
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    a:hover {
+      color: var(--link-hover-color);
+      text-decoration: underline;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 1rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    /* Header */
+    .site-header {
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--border-color);
+      background-color: white;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .site-title {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .site-title a {
+      color: var(--primary-color);
+    }
+
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    
+    .nav-link {
+      font-size: 0.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Main content */
+    .site-content {
+      min-height: 70vh;
+      padding-bottom: 2rem;
+    }
+
+    /* Footer */
+    .site-footer {
+      padding: 2rem 0;
+      border-top: 1px solid var(--border-color);
+      background-color: white;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--secondary-color);
+      box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Pages */
+    .page {
+      background-color: white;
+      padding: 2rem;
+      border: 1px solid var(--border-color);
+      border-radius: 3px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .page-title {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Profile section */
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    
+    @media (min-width: 768px) {
+      .profile {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    }
+    
+    .headshot {
+      width: 200px;
+      height: 200px;
+      border-radius: 5px;
+      object-fit: cover;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    @media (min-width: 768px) {
+      .headshot {
+        margin-right: 2rem;
+        margin-bottom: 0;
+      }
+    }
+    
+    .bio {
+      flex: 1;
+    }
+
+    /* Publications section */
+    .publications {
+      margin-top: 3rem;
+    }
+    
+    .pub-list {
+      list-style: none;
+    }
+    
+    .pub-item {
+      margin-bottom: 1rem;
+    }
+    
+    .pub-item a {
+      font-weight: 600;
+    }
+
+    /* Social links */
+    .social-links {
+      margin-top: 2rem;
+    }
+    
+    .social-links ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    
+    .social-links li a {
+      font-weight: 600;
+    }
+
+    /* Contact section */
+    .contact {
+      margin-top: 2rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title"><a href="/">Aidan O'Gara</a></h1>
+      <nav class="site-nav">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/blog.html" class="nav-link">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-content">
+    <div class="container">
+      <div class="page">
+        <section class="profile">
+          <img src="../assets/images/headshot.jpg" alt="Aidan O'Gara" class="headshot">
+          <div class="bio">
+            <h1>Aidan O'Gara</h1>
+            <p>I'm an AI DPhil student at Oxford University and an AI grantmaker at Longview Philanthropy.</p>
+            <p>Previously, I worked at GovAI, Center for AI Safety, and Epoch.</p>
+            <p>In another life, I dropped out of college to help found a fintech startup, running their data science team for three years before I went back to school to finish my degree.</p>
+            <p>I live in Washington DC.</p>
+          </div>
+        </section>
+
+        <section class="publications">
+          <h2>Selected Publications</h2>
+          <ul class="pub-list">
+            <li class="pub-item">
+              <a href="https://arxiv.org/" target="_blank">Hoodwinked</a> - Arxiv
+            </li>
+            <li class="pub-item">
+              <a href="https://www.cell.com/patterns/home" target="_blank">AI Deception</a> - Patterns
+            </li>
+            <li class="pub-item">
+              <a href="https://arxiv.org/" target="_blank">Adversarial Robustness</a> - Arxiv
+            </li>
+            <li class="pub-item">
+              <a href="https://epochai.com" target="_blank">LLM BDTs</a> - EpochAI.com
+            </li>
+          </ul>
+        </section>
+
+        <section class="social-links">
+          <ul>
+            <li><a href="https://scholar.google.com/" target="_blank">Scholar</a></li>
+            <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/" target="_blank">X</a></li>
+          </ul>
+        </section>
+
+        <section class="contact">
+          <p>Contact me: <a href="mailto:aidanogara623@gmail.com">aidanogara623@gmail.com</a></p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Aidan O'Gara. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,6 +1,12 @@
 # Aidan O'Gara's Personal Website
 
-This is the repository for my personal website, built with Jekyll and hosted on GitHub Pages.
+This is my personal website, hosted at [aidanogara.com](https://aidanogara.com).
+
+## Technical Details
+
+- Built with Jekyll
+- Hosted on GitHub Pages
+- Custom design with a professional gray theme and serif fonts
 
 ## Development
 
@@ -31,6 +37,12 @@ To run the site locally:
 - `_posts/`: Blog posts
 - `assets/`: Static files
 - `*.md`: Content pages
+
+## Notes for Maintenance
+
+- Add your headshot image to `/assets/images/headshot.jpg`
+- Blog posts go in the `_posts` directory with the format `YYYY-MM-DD-title.md`
+- Content is written in Markdown
 
 ## Custom Domain Setup
 

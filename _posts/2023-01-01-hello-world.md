@@ -1,30 +1,24 @@
 ---
 layout: post
-title: "Hello World"
-date: 2023-01-01 12:00:00 -0500
-categories: general
+title: "Reflections on AI Alignment"
+date: 2023-01-01
+categories: research
 ---
 
-This is my first blog post on my new Jekyll site. I'm excited to share my thoughts and projects here.
+In this post, I'd like to discuss some recent developments in AI alignment research and their implications for the field.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.
+## The Current State of AI Alignment
 
-## What's next?
+The rapid pace of AI development has brought both exciting capabilities and new challenges. As models become more capable, ensuring they remain aligned with human values and intentions becomes increasingly important. Recent work has focused on several promising directions:
 
-Suspendisse in orci enim. Donec sed ligula in nunc bibendum malesuada. Etiam porttitor nulla non mi porttitor a fermentum magna mollis. Nullam et nisl in libero varius gravida.
+1. **Constitutional AI approaches** - Systems that follow explicit principles and constraints
+2. **Reinforcement learning from human feedback** - Using human evaluations to guide model behavior
+3. **Interpretability techniques** - Methods to understand the internal workings of neural networks
 
-- Item 1
-- Item 2
-- Item 3
+## Looking Forward
 
-> This is a blockquote. It's pretty neat.
+The challenges ahead remain substantial. As AI systems become more capable, we'll need increasingly sophisticated alignment techniques. I believe interdisciplinary collaboration will be essential, bringing together expertise from computer science, philosophy, psychology, and other relevant fields.
 
-### Code example
+In my upcoming work, I'll be exploring how we can develop more robust evaluation metrics for alignment techniques and how to address the challenges of value pluralism when designing AI systems.
 
-```javascript
-function helloWorld() {
-  console.log("Hello, world!");
-}
-```
-
-I hope you enjoy reading my blog!
+I look forward to sharing more thoughts on these topics in future posts.

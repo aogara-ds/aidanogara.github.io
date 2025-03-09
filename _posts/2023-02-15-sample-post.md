@@ -1,62 +1,34 @@
 ---
 layout: post
-title: "Sample Post"
-date: 2023-02-15 15:30:00 -0500
-categories: samples
+title: "The Role of AI in Grantmaking"
+date: 2023-02-15
+categories: philanthropy
 ---
 
-This is a sample post to demonstrate the formatting and features of my blog.
+As an AI grantmaker at Longview Philanthropy, I often reflect on how AI tools themselves could transform the philanthropic sector. In this post, I'll explore some possibilities and challenges.
 
-## Typography
+## AI as a Tool for Effective Altruism
 
-Paragraphs are separated by a blank line. Text can be **bold**, _italic_, or ~~strikethrough~~.
+The effective altruism movement has always emphasized using evidence and reasoning to determine the most impactful ways to do good. AI systems could potentially enhance this process by:
 
-### Lists
+1. **Analyzing large datasets** to identify neglected problems and promising solutions
+2. **Modeling complex systems** to predict intervention outcomes with greater accuracy
+3. **Optimizing resource allocation** across different cause areas and organizations
 
-Unordered list:
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
+## Challenges and Considerations
 
-Ordered list:
-1. Item 1
-2. Item 2
-3. Item 3
-   1. Item 3a
-   2. Item 3b
+While AI holds promise for philanthropy, several challenges need to be addressed:
 
-## Links and Images
+- **Value alignment**: Ensuring AI tools reflect the diverse values relevant to philanthropic decisions
+- **Transparency**: Making AI-assisted grantmaking processes understandable to all stakeholders
+- **Equity concerns**: Preventing AI from reinforcing existing biases in funding patterns
 
-[This is a link](http://example.com)
+## Responsible Implementation
 
-![This is an image placeholder](https://via.placeholder.com/150)
+For AI to benefit philanthropy, we need thoughtful implementation strategies:
 
-## Code Blocks
+- Combining AI analysis with human judgment and lived experience
+- Building AI tools that explain their reasoning and allow for value-based adjustments
+- Including diverse perspectives in AI development and oversight
 
-Inline code: `const greeting = "Hello World";`
-
-Block code:
-
-```python
-def greet(name):
-    return f"Hello, {name}!"
-    
-print(greet("Reader"))
-```
-
-## Blockquotes
-
-> This is a blockquote.
-> It can span multiple lines.
->
-> It can also have multiple paragraphs.
-
-## Tables
-
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-
-I hope this post helps demonstrate the different formatting options available!
+I believe AI could be transformative for philanthropy, but only if we approach its development and deployment with the same careful consideration we apply to other grantmaking decisions.
