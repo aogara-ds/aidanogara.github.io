@@ -1,0 +1,8 @@
+title: Aidan O'Gara
+description: Personal website and portfolio
+url: "https://aidanogara.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
